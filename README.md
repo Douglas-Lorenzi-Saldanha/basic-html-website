@@ -28,3 +28,7 @@ Again, make sure that your submission includes the following:
 -Contact page should have a form with fields like name, email, message etc.
 
 After completing this project, you will have a good understanding of how to structure a website using HTML, basic SEO meta tags, HTML tags, forms etc. You can now move on to the next project where you will learn how to style this website using CSS.
+
+First draft o the project, it was the closest i could do without pure CSS and without using old HTML commands.
+
+![image](https://github.com/user-attachments/assets/520c9f1a-973e-43a9-94ae-579ef7edd91f)
