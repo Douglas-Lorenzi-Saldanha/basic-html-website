@@ -7,72 +7,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic HTML Website</title>
     <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 <body>
 
     <header>
-        <section>
-            <table>
-                <tr>
-                    <th>
-                        <table style="position: absolute; left: 10px; top: 0px;">
-                            <tr>
-                                <th><h3>Douglas Lorenzi Saldanha</h3></th>                                            
-                            </tr>
-                        </table>
-                    </th>
-                    <th>
-                        <table style="position: absolute; right: 10px; top: 0px;">
-                            <th ><p>&nbsp;&nbsp;<a href="\">Home</a>&nbsp;&nbsp;</p></th>
-                            <th><p>/</p></th>                
-                            <th><p>&nbsp;&nbsp;<a href="projects.html">Projects</a>&nbsp;&nbsp;</p></th>
-                            <th><p>/</p></th>                 
-                            <th><p>&nbsp;&nbsp;<a href="articles.html">Articles</a>&nbsp;&nbsp;</p></th>
-                            <th><p>/</p></th>                
-                            <th><p>&nbsp;&nbsp;<a href="contact.html">Contact</a></p></th>
-                        </table>
-                    </th>
-                </tr>
-            </table>    
-        </section>   
-        <section>
-            <h1 style="text-align: center; position: relative; top: 100px; font-size: 50px;">Frontend Developer</h1>
-            <p style="text-align: center; position: relative; top: 70px;">html project with proper structure</p>
+        <section>      
+            <h2>Douglas Lorenzi Saldanha</h2>
         </section>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li>/</li>
+                    <li>Projects</li>
+                    <li>/</li>
+                    <li>Articles</li>
+                    <li>/</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </section>
+
+
+        <h1>Frontend Developer</h1>
+        <p class="undertitle">html only with proper layout, no styling</p>
+
+
     </header>
 
     <main>
-        <section>
-            <table style="position: absolute; width: 100%; height: auto; border-collapse: collapse; margin: 10px auto; border: 2px solid black; top: 300px;">
+        <table>
+            <thead>
                 <tr>
-                    <th style="width: 33%;">
-                        <article style="position: relative; height: 500px; font-weight: lighter; text-align: left; border: 2px solid black; padding: 20px;">
-                            <h4>Projects</h4>
-                            <p>Single Page CV HTML Only</p>
-                            <hr>
-                            <p>HTML Course</p>
-                            <hr>
-                            <p>Final project PI Senac EAD covering Frontend(HTML, CSS, Javascript) and Backend(PHP, SQL)</p>
-                            <hr>
-                        </article>
-                    </th>
-                    <th style="width: 33%;">
-                        <article style="position: relative; height: 250px; font-weight: lighter; text-align: left; border: 2px solid black; padding: 10px;">
-                            <h4>Work Experience</h4>
-                            <p>Software Tester and Technical Support</p>
-                            <p><a href="https://www.linkedin.com/in/douglas-lorenzi-saldanha-b505b7123/">Visit my profile</a></p>
-                        </article>
-                        <article style="position: relative; height: 250px; font-weight: lighter; text-align: left; border: 2px solid black; padding: 10px;">
-                            <h4>Open source work</h4>
-                            <p>At the moment the only work i`m been doing is for my study. I want to gain enough experience to be able to 
-                            work. Hoping enough project will prepare me not only for a good job, but also for the interviews.
-                            </p>
-                            <p><a href="https://github.com/Douglas-Lorenzi-Saldanha">Visit my GitHub</a></p>
-                        </article>
-                    </th>
-                    <th style="width: 33%;">
-                        <article style="position: relative; height: 500px; font-weight: lighter; text-align: left; border: 2px solid black; padding: 20px;">
+                    <th>Projects</th>
+                    <th>Work Experience</th>
+                    <th>Education</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>Single Page CV HTML Only</p>
+                        <hr>
+                        <p>HTML Course</p>
+                        <hr>
+                        <p>Quiz App</p>
+                        <hr>
+                        <p>Final project PI Senac EAD covering Frontend(HTML, CSS, Javascript) and Backend(PHP, SQL)</p>
+                        <hr>
+                        <p>CSS 11 hour course</p>
+                    </td>
+                    <td>
+                        <p>Software Tester and Technical Support</p>
+                        <p><a href="https://www.linkedin.com/in/douglas-lorenzi-saldanha-b505b7123/">Visit my profile</a></p>
+                        <hr>
+                        <h4 class="titleTable">OpenSource Work</h4>
+                        <p>At the moment the only work i`m been doing is for my study. I want to gain enough experience to be able to 
+                        work. Hoping enough project will prepare me not only for a good job, but also for the interviews.</p>
+                    </td>
+                    <td>
+                        <h3>Senac Ead - System Analysis and Development</h3>
+                        <p>Jan 2022 to current</p>
+                        <ul>
+                            <li>Algorithms and Programming</li>
+                            <li>Computing Concepts</li>
+                            <li>Fundamentals of Administration</li>
+                            <li>Information Technology Infrastructure</li>
+                            <li>Research</li>
+                            <li>Diagnosis of Information Technology Solutions</li>
+                            <li>Systems Analysis</li>
+                            <li>Database</li>
+                            <li>Ethics</li>
+                            <li>Citizenship and Sustainability</li>
+                            <li>Structured Systems Development</li>
+                            <li>Technology and Society</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+
+
+            <tr></tr>
+            <tfoot></tfoot>
+        </table>
+
+            <section>
+                <h3>OpenSource Work</h3>
+
+            </section>
+        </article>
+
+    </main>
+
+    <footer>
+        <h3>Review from my Teachers</h3>
+        <article>
+            <p>John doe was a brilliant student; always stood out with his assignments</p>
+            <p>Jane Doe - Assistant Professor</p>
+        </article>
+        <article>
+            <p>John doe was a brilliant student; always stood out with his assignments</p>
+            <p>Jane Doe - Assistant Professor</p>
+        </article>
+        <article>
+            <p>John doe was a brilliant student; always stood out with his assignments</p>
+            <p>Jane Doe - Assistant Professor</p>
+        </article>
+        <p>
+            &copy; <a href="about.html">Douglas Lorenzi Salranha - 2024</a>
+            <br><br>
+        </p>  
+    </footer>
+
+    <!-- 
+
                             <h4>Education</h4>
                             <p>IT technician Course - Alcides Maya - 2017 to 2018</p>
                             <hr>
@@ -91,8 +141,7 @@
                 <tr>
                     <th style="padding: 75px; width: 300px;">
                         <article style="border-collapse: collapse; margin: 10px auto; border: 2px solid black; padding: 10px;">
-                            <p>John doe was a brilliant student; always stood out with his assignments</p>
-                            <p>Jane Doe - Assistant Professor</p>
+
                         </article>
                     </th>
                     <th style="padding: 75px; width: 300px;">
@@ -114,11 +163,10 @@
 
 
     <footer style="position: absolute; bottom: 0; left: 0; width: 100%; text-align: center; padding: 0px; top: 1600px;">
-        <p>
-            &copy; <a href="about.html">Douglas Lorenzi Salranha - 2024</a>
-            <br><br>
-        </p>       
-    </footer>
+     
+    </footer> -->
     
+
+
 </body>
 </html>

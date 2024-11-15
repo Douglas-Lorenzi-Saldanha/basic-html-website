@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid black;
+}
+
+h2 {
+    position: absolute;
+    top: 0.4em;
+    left: 1em;
+}
+
+header section{
+    display: inline-block;   
+}
+
+nav {
+    position: absolute;
+    right: 1.5em;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    padding-left: 1em;
+}
+
+h1 {
+    font-size: 3em;;
+    padding-top: 4em;  
+    text-align: center;
+}
+
+.undertitle {
+    text-align: center;
+    padding-bottom: 6em;  
+}
+
+table {
+    border: 0.1em solid #000000;
+}
+
+th, .titleTable{
+    text-align: left;
+    font-size: 1.5em;
+    width: 33%;
+    padding-bottom: 2em;
+}
+
+td {
+    border-left: 0.1em solid #000000;
+    text-align: left;
+}
+
