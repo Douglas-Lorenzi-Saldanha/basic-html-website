@@ -26,7 +26,6 @@ nav {
 ul li {
     display: inline-block;
     position: relative;
-    padding-left: 1em;
 }
 
 h1 {
@@ -40,33 +39,15 @@ h1 {
     padding-bottom: 6em;  
 }
 
-th {
-    border: 0.1em solid #ffffff;    
-}
-
-table {
-    width: 100%;
-    text-align: left;
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 1em;
     border: 0.1em solid #000000;
-    border-spacing: 0px;
-    table-layout: fixed;
-    margin-left:auto; 
-    margin-right:auto;
 }
 
-td {
-    border-left: 0.1em solid #000000;  
-    border-right: 0.1em solid #000000;       
-}
-
-.tableTitle {
-    border-bottom: #ffffff;   
-    border-left: 0.1em solid #000000;  
-    border-right: 0.1em solid #000000; 
-}
-
-.firstRow {
-    border-top: #ffffff;
-    border-left: 0.1em solid #000000;  
-    border-right: 0.1em solid #000000; 
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
